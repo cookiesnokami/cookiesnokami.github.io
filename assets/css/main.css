@@ -2907,7 +2907,7 @@
 		/* Header */
 
 			#header {
-				background-attachment: scroll;
+				background-attachment: fixed;
 				background-position: top left, center center;
 				background-size: auto,		cover;
 				left: auto;
@@ -2929,11 +2929,11 @@
 		/* Footer */
 
 			#footer {
-				background-attachment: scroll;
+				background-attachment: fixed;
 				background-color: #1f1815;
 				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 				background-position: top left,						bottom center;
-				background-repeat: repeat,							no-repeat;
+				background-repeat: no-repeat;
 				background-size: auto,							cover;
 				bottom: auto;
 				left: auto;
