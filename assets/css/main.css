@@ -1959,6 +1959,34 @@
 			padding: 0;
 		}
 
+/* Progress Bar */
+#skills span {
+    top: -30px;
+    left: 2%;
+    position: relative;
+    font-weight: bolder;
+    color: #fff;
+	height: 20px;
+}
+
+progress {
+    background-color: #f3f3f3;
+    border: 0;
+    height: 20px;
+    width: 100%;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #e0eaf0;
+}
+
+progress::-webkit-progress-value {
+    background-color: #329ad1;
+}
+
+progress::-moz-progress-bar {
+    background-color: #329ad1;
+}
 /* Icon */
 
 	.icon {
@@ -2260,13 +2288,13 @@
 	}
 
 		table tbody tr {
-			border: solid 1px #efefef;
+			border: solid 1px #ffffff;
 			border-left: 0;
 			border-right: 0;
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #f7f7f7;
+				background-color: #ffffff;
 			}
 
 		table td {
@@ -2282,11 +2310,11 @@
 		}
 
 		table thead {
-			border-bottom: solid 2px #efefef;
+			border-bottom: solid 2px #ffffff;
 		}
 
 		table tfoot {
-			border-top: solid 2px #efefef;
+			border-top: solid 2px #ffffff;
 		}
 
 		table.alt {
@@ -2294,7 +2322,7 @@
 		}
 
 			table.alt tbody tr td {
-				border: solid 2px #efefef;
+				border: solid 2px #ffffff;
 				border-left-width: 0;
 				border-top-width: 0;
 			}
