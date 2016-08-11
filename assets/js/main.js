@@ -82,7 +82,7 @@
 						}
 						else {
 
-							$header.css('background-position', 'left 0px');
+							$header.css('background-position', 'left 0px', 'background-attachment', fixed);
 
 							$window.on('scroll.strata_parallax', function() {
 								$header.css('background-position', 'left ' + (-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
